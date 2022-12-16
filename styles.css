@@ -6,6 +6,13 @@
     --my-bg-color: #211f1f;
     --my-bg-color-rgb: rgb(33, 31, 31);
     --my-text-color: #fff8e7;
+    --my-secondary-color: #586e75;
+    --my-highlight-color: #E3950E;
+    --my-yellow: #b58900;
+    --my-red: #D54D15;
+    --my-grey: #8DA0A2;
+    --my-blue: #7378D3;
+    --my-darkblue: #236C7F;
 }
 
 html body {
@@ -16,7 +23,11 @@ html body {
 }
 
 h1 {
-    color: var(--my-text-color);
+    color: var(--my-highlight-color);
+}
+
+h2 {
+    color: var(--my-highlight-color);
 }
 
 .header {
@@ -31,6 +42,7 @@ h1 {
 
 .thumbnail {
     background-color: var(--my-bg-color);
+    border-width: 3px;
     border-color: var(--my-bg-color);
     max-width: 100px;
     max-height: 100px;
@@ -39,4 +51,34 @@ h1 {
 .bg-dark {
     --bs-bg-opacity: .75;
     background-color: rgba(33, 31, 31, var(--bs-bg-opacity)) !important;
+}
+
+.card {
+    margin-top: 50px;
+    padding-top: 1.5em;
+    align-content: center;
+    align-items: center;
+    background-color: var(--my-bg-color);
+    color: var(--my-text-color);
+    border-width: 2px;
+    border-color: var(--my-grey);
+    max-width: 50vw;
+    min-width: 300px;
+
+}
+
+.highlight {
+    color: var(--my-blue);
+}
+
+.card-body {
+    padding: 0.75em;
+}
+
+.main-content {
+    min-height: 100vh;
+    max-width: 65vw;
+    min-width: 340px;
+    border-left: 2px solid var(--my-grey);
+    border-right: 2px solid var(--my-grey);
 }
