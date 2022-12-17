@@ -43,8 +43,7 @@ a {
     background-image: url("./img/banner.png");
     min-width: 100vw;
     min-height: 15vh;
-    border-left: 20px solid var(--my-bg-color);
-    border-right: 20px solid var(--my-bg-color);
+    padding-top: 1.2em;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
